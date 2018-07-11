@@ -234,6 +234,7 @@ Commands =
     "passNextKey"]
 
 defaultKeyMappings =
+  "<c-m>":"showDownloads"
   "?": "showHelp"
   "j": "scrollDown"
   "k": "scrollUp"
@@ -321,6 +322,7 @@ defaultKeyMappings =
 commandDescriptions =
   # Navigating the current page
   showHelp: ["Show help", { topFrame: true, noRepeat: true }]
+  showDownloads:["Show Downloads"]
   scrollDown: ["Scroll down"]
   scrollUp: ["Scroll up"]
   scrollLeft: ["Scroll left"]

@@ -27,6 +27,7 @@
     "open_in_tab": true
   },
   "permissions": [
+    "downloads",
     "tabs",
     "bookmarks",
     "history",

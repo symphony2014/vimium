@@ -123,6 +123,7 @@ NormalModeCommands =
   # Misc.
   mainFrame: -> focusThisFrame highlight: true, forceFocusThisFrame: true
   showHelp: (sourceFrameId) -> HelpDialog.toggle {sourceFrameId, showAllCommandDetails: false}
+  showDownloads: (sourceFrameId) -> ShowDownloads.toggle {sourceFrameId, showAllCommandDetails: false}
 
   passNextKey: (count, options) ->
     if options.registryEntry.options.normal
